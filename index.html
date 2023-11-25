@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>llm_client for llm_server</title>
+</head><body>
+<h1>llm_client for llm_server</h1>
+<input id="comment"><button id="btn">send</button>
+<div id="response"></div>
+<hr>
+<a href=http://github.com/code4fukui/llm_client>src on GitHub</a><br>
+
+<script type="module">
+import { llm } from "./llm.js";
+
+btn.onclick = async () => {
+  const prompt = `ユーザー: ${comment.value}\nシステム: `;
+  const text = await llm(prompt);
+  const div = document.createElement("div");
+  div.textContent = text;
+  response.appendChild(div);
+};
+</script>
+
+</body></html>
