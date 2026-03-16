@@ -2,7 +2,7 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-One-sentence description: `llm_client` is a client-side application for interacting with the [llm_server](https://github.com/code4fukui/llm_server) project, which provides a language model-based conversational interface.
+`llm_client` is a client-side application for interacting with the [llm_server](https://github.com/code4fukui/llm_server) project, which provides a language model-based conversational interface.
 
 ## Features
 - Enables console-based and web-based usage of the `llm_server`
@@ -30,4 +30,4 @@ One-sentence description: `llm_client` is a client-side application for interact
 - [llm_server](https://github.com/code4fukui/llm_server)
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).

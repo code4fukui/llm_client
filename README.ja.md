@@ -1,9 +1,6 @@
 # llm_client
 
-LLM (Large Language Model) サーバー `llm_server` のクライアントアプリケーションです。
-
-## デモ
-ブラウザでのデモは[こちら](https://code4fukui.github.io/llm_client/)。
+LLM (Large Language Model) サーバー `llm_server` のクライアントアプリケーションです。このクライアントを使うことで、コマンドラインやウェブブラウザからLLMサーバーと対話することができます。
 
 ## 機能
 - LLMサーバーに対してリクエストを送信し、レスポンスを表示する
